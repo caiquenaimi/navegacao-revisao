@@ -5,10 +5,6 @@ export default StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-    },
-    title: {
-        fontSize: 20,
-        fontWeight: "bold",
-        marginBottom: 10,
+        backgroundColor: 'aliceblue',
     },
 });
