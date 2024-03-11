@@ -12,8 +12,8 @@ export default function Home() {
             <Text>Profile</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Categorie')}> 
-            <Text>Categorie</Text>
+        <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Category')}> 
+            <Text>Category</Text>
         </TouchableOpacity>
     </View>
   )

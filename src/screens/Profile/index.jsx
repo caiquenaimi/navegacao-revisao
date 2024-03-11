@@ -7,7 +7,7 @@ export default function Profile() {
   const navigation = useNavigation()
   return (
     <View style={styles.container}>
-        <Title texto="Profile" />
+        <Title texto="Profile 🧑" />
         <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Home')}>
             <Text>Home</Text>
         </TouchableOpacity>
